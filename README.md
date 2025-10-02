@@ -1,3 +1,6 @@
+![R](https://img.shields.io/badge/R-4.0+-276DC3?logo=r)
+![Status](https://img.shields.io/badge/status-complete-success)
+
 # Dexamethasone Transcriptomic Analysis
 
 **Systematic Transcriptomic Analysis of Dexamethasone-Treated Human Airway Epithelial Cells**
