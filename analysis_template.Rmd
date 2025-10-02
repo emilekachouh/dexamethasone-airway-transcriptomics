@@ -1,0 +1,33 @@
+---
+title: "Differential Gene Expression Analysis of Dexamethasone-Treated Airway Epithelial Cells"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+    theme: flatly
+---
+
+# Abstract
+
+This project analyzes RNA-seq data from human airway epithelial cells treated with dexamethasone (a synthetic glucocorticoid) to identify differentially expressed genes and affected biological pathways. Using the airway dataset from Bioconductor, we demonstrate statistical quality control, high-dimensional data analysis techniques, and pathway enrichment analysis to understand the molecular mechanisms of glucocorticoid action in airway inflammation.
+
+# Introduction
+
+## Background
+- Glucocorticoids are key anti-inflammatory drugs used in asthma treatment
+- Dexamethasone is a synthetic glucocorticoid with potent anti-inflammatory effects
+- Understanding gene expression changes helps identify therapeutic targets
+
+## Research Questions
+1. Which genes are significantly affected by dexamethasone treatment?
+2. What biological pathways are enriched among differentially expressed genes?
+3. How do different cell lines respond to treatment?
+
+## Course Integration
+This project demonstrates skills from:
+- **PH525.1x**: Statistical analysis, hypothesis testing, multiple comparisons, power analysis
+- **PH525.4x**: High-dimensional data analysis, PCA, clustering, variance stabilization
+- **PH525.5x**: Bioconductor workflows, DESeq2, pathway analysis, reproducible research
